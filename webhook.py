@@ -9,7 +9,7 @@ CHAT_ID = "your_chat_id"
 
 # Hàm gửi tin nhắn đến Telegram
 def send_telegram_message(message):
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    url = f"https://api.telegram.org/bot{7726901239:AAEfAG8kzDU8aG7W99vJvV5D_7zyX7V7bXQ}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
         "text": message,
